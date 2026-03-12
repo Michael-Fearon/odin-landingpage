@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul {
+  display: flex;
+  gap: 20px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header li, .header ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 10%;
+}
+
+.header-wrapper{
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.title-section {
+  display: flex;
+}
+
+.col1, .col2 {
+  flex: 1;
+}
+
+.col2 {
+  display: flex;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
