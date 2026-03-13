@@ -1,3 +1,3 @@
 The Odin Project - Landing Page
 
-End of the Foundations flex course, this is a static site using flex principles and basic css!
+End of the Foundations flex course, this is a static page using flex principles and basic css!
