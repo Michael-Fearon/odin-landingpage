@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -11,36 +16,102 @@
 .page {
   display: flex;
   flex-direction: column;
-  background-color: #1F2937;
-  color: #F9FAF8;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .header li, .header ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
-  padding-bottom: 10%;
 }
 
 .header-wrapper{
   padding-left: 12%;
   padding-right: 12%;
+  background-color: #1F2937;
+  color: #F9FAF8;
 }
 
 .title-section {
   display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.col1, .col2 {
-  flex: 1;
+.title-section .col1, .title-section .col2 {
+  flex: 1 1 100px;
 }
 
-.col2 {
+.title-section .col1 {
+  padding: 20px;
+}
+
+.title-section .col2 {
   display: flex;
   background-color: grey;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+}
+
+.flex-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.flex-columns .rounded-box {
+  width: 140px;
+  height: 140px;
+  border: solid #3882F6;
+  border-radius: 18px;
+}
+
+.flex-columns .col1 {
+  width: 140px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+}
+
+.quote-section .col1, .cta {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.cta {
+  border-radius: 18px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cta button {
+  border: solid #F9FAF8;
+  color: #F9FAF8;
+  border-width: 2px;
+  background: none;
+  border-radius: 12px;
+  align-self: center;
+  padding: 10px 30px 10px 30px;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 10px;
 }
