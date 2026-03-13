@@ -27,6 +27,7 @@ body {
 .header-wrapper{
   padding-left: 12%;
   padding-right: 12%;
+  padding-top: 12px;
   background-color: #1F2937;
   color: #F9FAF8;
 }
@@ -81,6 +82,17 @@ body {
 
 .quote-section {
   background-color: #E5E7EB;
+  font-weight: 200;
+}
+
+.quote-section h3 {
+  font-weight: inherit;
+  font-size: 20pt;
+}
+
+.quote-section h4 {
+  font-weight: 400;
+  font-size: 16pt;
 }
 
 .quote-section .col1, .cta {
@@ -101,12 +113,17 @@ body {
 
 .cta button {
   border: solid #F9FAF8;
-  color: #F9FAF8;
   border-width: 2px;
-  background: none;
+}
+
+button {
   border-radius: 12px;
   align-self: center;
   padding: 10px 30px 10px 30px;
+  background: #3882F6;
+  color: #F9FAF8;
+  font-weight: 600;
+  font-size: 12pt;
 }
 
 .footer {
